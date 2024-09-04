@@ -1,11 +1,14 @@
 # HT-16srRNA.GABA
-This bioinformatics pipeline is designed for high-throughput strain identification. It includes several key steps: duplex sequencing, taxonomic identification, and generation of abundance profiles.
+HT-16srRNA.GABA is a comprehensive bioinformatics pipeline designed for the high-throughput identification of GABA-producing microbial strains using 16S rRNA gene sequencing data. The pipeline includes multiple steps such as duplex sequencing, taxonomic identification, and abundance profiling.
 ## 1. install dependencies
 ```
 #create a environment with conda
 conda create --name emu
 #install emu seqkit blast 
 conda install -c bioconda emu seqkit blast samtools
+git clone https://github.com/DingDingFan/HT-16srRNA.GABA.git
+cd HT-16srRNA.GABA
+
 ```
 
 ## 2. How to run
@@ -53,4 +56,8 @@ perl ~/bin/meta/got.emu.result.pl $i
 done > Nanopore.assign.xls
 
 ```
+## License
+This project is licensed under the MIT License 
+## Contact
+For questions or inquiries, please contact [biocomfun@qq.com].
                                
