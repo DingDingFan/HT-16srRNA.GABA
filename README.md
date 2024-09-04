@@ -1,4 +1,5 @@
 # HT-16srRNA.GABA
+## tools need to install
 ```
 conda activate /home/wuliu/raid6/conda/envs/emu #首先本地运行这个命令，激活环境
 
