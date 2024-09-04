@@ -1,6 +1,6 @@
 # HT-16srRNA.GABA
 HT-16srRNA.GABA is a comprehensive bioinformatics pipeline designed for the high-throughput identification of GABA-producing microbial strains using 16S rRNA gene sequencing data. The pipeline includes multiple steps such as duplex sequencing, taxonomic identification, and abundance profiling.
-## 1. install dependencies
+## 1. Install dependencies
 ```
 #create a environment with conda
 conda create --name emu
