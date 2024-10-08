@@ -1,5 +1,5 @@
 # HT-16srRNA.GABA
-HT-16srRNA.GABA is a comprehensive bioinformatics pipeline designed for the high-throughput identification of GABA-producing microbial strains using 16S rRNA gene sequencing data. The pipeline includes multiple steps such as duplex sequencing, taxonomic identification, and abundance profiling.
+HT-16srRNA.GABA is a comprehensive bioinformatics pipeline designed for the high-throughput identification of microbial strains using 16S rRNA gene sequencing data. The pipeline includes multiple steps such as duplex sequencing, taxonomic identification, and abundance profiling.
 ## 1. Install dependencies
 ```
 #create a environment with conda
@@ -56,6 +56,8 @@ perl ~/bin/meta/got.emu.result.pl $i
 done > Nanopore.assign.xls
 
 ```
+## others
+Nanopore sequencing test data can be download form Bioproject(PRJNA1170189). ohters Pacbio/HIFI NGS also can be downloaded . sanger sequencing attached in the demo dirment.
 ## License
 This project is licensed under the MIT License 
 ## Contact
