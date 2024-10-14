@@ -35,7 +35,7 @@ perl script/add.sample.pl dual_barcode_pair.txt  aln.blast.deplex > aln.blast.de
 for i in deplex/*/seq.id
     echo "head -1000 $i | perl ~/bin/commom_bin/fishInWinter.pl --ff fasta /dev/stdin pass.fq.fasta >$i.fas  "
 end > batch.getseq.sh    
-perl ~/bin/commom_bin/multi-process.pl  -cpu 20 batch.getseq.sh 
+perl script/commom_bin/multi-process.pl  -cpu 20 batch.getseq.sh 
 ```
 
 ### step 5: taxonomic identification and generation of abundance profiles
